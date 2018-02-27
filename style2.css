@@ -61,7 +61,7 @@ body {
 #section1 {
   /*background-repeat: no-repeat;*/
   background-image: url("images/Royal.png");
-  height:104vh;
+  height:92vh;
   background-size: cover;
   margin: 0;
 }
@@ -235,9 +235,9 @@ color: white;
 #section3 {
     /*background-repeat: no-repeat;*/
   background-image: url("images/Royal.png");
-  height:104vh;
+  height:94vh;
   background-size: cover;
-} 
+}
 
 #quotation-left1 {
 
@@ -377,7 +377,7 @@ top: 1245px;
 
 #section2 {
   background-image: url("images/Royal.png");
-  height:104vh;
+  height:100vh;
   background-size: cover;
 /*  position:relative;
   display: flex;
@@ -446,7 +446,7 @@ color: white;
 }
 
 #text2-p3 {
- 
+
 position: absolute;
 width: 277px;
 height: 125px;
@@ -492,12 +492,12 @@ color: #FFFFFF;
 #section4{
   background-repeat: no-repeat;
   background-image: url("images/Royal.png");
-  height: 104vh;
+  height: 90vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 
 }
 
@@ -506,7 +506,7 @@ color: #FFFFFF;
 }
 
 #phone-picture {
-  width: 600px; 
+  width: 600px;
 }
 
 #IOS {
