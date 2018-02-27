@@ -1,0 +1,565 @@
+body {
+  margin: 0;
+
+}
+
+#music {
+  display: none;
+}
+/* Main navbar */
+.navbar-wagon {
+  box-shadow: 0 2px 5px black;
+  background: black;
+  transition: all 0.3s ease;
+  height: 30px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+/*  position: fixed;*/
+}
+
+/* Logo */
+.navbar-wagon-brand img {
+  height: 25px;
+}
+
+/* User Avatar */
+.navbar-wagon .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+  font-family: 'Quantico', sans-serif;
+  letter-spacing: 1px;
+  margin: 10px;
+
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: white;
+  font-size: 14px;
+}
+.navbar-wagon-link:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+#section1 {
+  /*background-repeat: no-repeat;*/
+  background-image: url("images/Royal.png");
+  height:104vh;
+  background-size: cover;
+  margin: 0;
+}
+
+#section1-img-left {
+position: absolute;
+width: 150px;
+left: 50px;
+top: 260px;
+}
+
+#section1-img-right {
+position: absolute;
+left: 1035px;
+top: 290px;
+}
+
+#section1-img {
+/*  position:relative;*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+/*  width: 400px;
+  margin: 0 auto;
+  height: 100%;*/
+}
+
+#text1-h1 {
+  font-family: 'Quantico', sans-serif;
+  position: relative;
+  top: 10%;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 15px;
+  /*text-align: center;*/
+  letter-spacing: 0.0104348em;
+  color: #76A873;
+  margin: 0 auto;
+}
+
+#landing-text1 {
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+ #text1-h2 {
+/*  position: absolute;
+  left: 43%;
+  right: 0%;
+  top: 35%;
+  bottom: 0%;*/
+  margin: 0 auto;
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 15px;
+  letter-spacing: 0.0104348em;
+  color: #AAD2DA;
+  position: relative;
+  top: 16%
+}
+
+#text1-p1 {
+  /*position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;*/
+  font-family: 'Rajdhani', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0.0104348em;
+  color: white;
+  text-decoration: none;
+  /*margin: 0 auto;*/
+  position:relative;
+  top:-75%;
+
+}
+
+#button {
+  padding: 10px;
+  position: relative;
+  left:32%;
+  top:19%;
+  width:120px;
+  height:39px;
+  /*width: 243px;*/
+  /*height: 80px;*/
+  /*position: absolute;
+  left: 500px;
+  top: 380px;*/
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+#text1-p2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  margin: 50px;
+  color: white;
+  position: relative;
+  top: 13%;
+}
+
+#continue1 {
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  margin: 0px 0px 40px;
+  height: 100%;
+}
+
+#view1 {
+position: absolute;
+width: 480px;
+height: 10px;
+left: 385px;
+top: 1350px;
+
+font-family: 'Rajdhani', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 10px;
+text-align: center;
+letter-spacing: 0.0104348em;
+
+color: white;
+}
+
+#view2 {
+  position: absolute;
+width: 480px;
+height: 10px;
+left: 385px;
+top: 1600px;
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 10px;
+text-align: center;
+letter-spacing: 0.0104348em;
+
+color: white;
+
+}
+
+#section3 {
+    /*background-repeat: no-repeat;*/
+  background-image: url("images/Royal.png");
+  height:104vh;
+  background-size: cover;
+} 
+
+#quotation-left1 {
+
+position: absolute;
+width: 200px;
+height: 200px;
+left:265px;
+top: 1290px;
+
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 50px;
+text-align: center;
+letter-spacing: 0.0104348em;
+
+color: #FFFFFF;
+}
+
+#quotation-left2 {
+
+position: absolute;
+width: 200px;
+height: 200px;
+left: 265px;
+top: 1540px;
+
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 50px;
+text-align: center;
+letter-spacing: 0.0104348em;
+
+color: #FFFFFF;
+}
+
+#quotation-right1 {
+
+position: absolute;
+width: 200px;
+height: 200px;
+left:780px;
+top: 1410px;
+
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 50px;
+text-align: center;
+letter-spacing: 0.0104348em;
+
+color: #FFFFFF;
+}
+#viewer1 {
+  position: absolute;
+width: 400px;
+height: 101px;
+left: 666px;
+top: 1525px;
+
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.0104348em;
+
+color: #FFFFFF;
+}
+
+#viewer2 {
+  position: absolute;
+width: 312px;
+height: 101px;
+left: 685px;
+top: 1780px;
+
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.0104348em;
+
+color: #FFFFFF;
+}
+
+#quotation-right2 {
+  position: absolute;
+width: 200px;
+height: 200px;
+left:780px;
+top: 1680px;
+
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 50px;
+text-align: center;
+letter-spacing: 0.0104348em;
+
+color: #FFFFFF;
+}
+
+#text2-continue {
+    position: absolute;
+width: 200px;
+height: 200px;
+left:525px;
+top: 1200px;
+
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 15px;
+text-align: center;
+letter-spacing: 0.0104348em;
+
+color: #FFFFFF;
+}
+
+#continue2 {
+position: absolute;
+width: 30.62px;
+height: 12.5px;
+left: 610px;
+top: 1245px;
+}
+
+#section2 {
+  background-image: url("images/Royal.png");
+  height:104vh;
+  background-size: cover;
+/*  position:relative;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 auto;
+  height: 100%;*/
+}
+
+#screenshot1 {
+  height: 600px;
+  width: 342px;
+  margin: -40px 25px;
+}
+
+#screenshot2 {
+  position: absolute;
+  height: 600px;
+  width: 342px;
+  margin-left: 450px;
+  margin-top: -565px;
+}
+
+#screenshot3 {
+  position: absolute;
+  height: 600px;
+  width: 342px;
+  margin-left: 867px;
+  margin-top: -565px;
+}
+
+#text2-p1 {
+position: absolute;
+width: 277px;
+height: 120px;
+left: 55px;
+top: 1150px;
+
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 25px;
+text-align: center;
+letter-spacing: 0.0104348em;
+color: white;
+}
+
+#text2-p2 {
+position: absolute;
+width: 382px;
+height: 125px;
+left: 430px;
+top: 1150px;
+
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 25px;
+text-align: center;
+letter-spacing: 0.0104348em;
+color: white;
+}
+
+#text2-p3 {
+ 
+position: absolute;
+width: 277px;
+height: 125px;
+left: 905px;
+top: 1150px;
+
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 25px;
+text-align: center;
+letter-spacing: 0.0104348em;
+color: white;
+}
+
+#text3-continue {
+    position: absolute;
+width: 200px;
+height: 200px;
+left:525px;
+top: 1820px;
+
+font-family: Rajdhani;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 15px;
+text-align: center;
+letter-spacing: 0.0104348em;
+
+color: #FFFFFF;
+}
+
+#continue3 {
+    position: absolute;
+    width: 30.62px;
+    height: 12.5px;
+    left: 610px;
+    top: 1860px;
+}
+
+#section4{
+  background-repeat: no-repeat;
+  background-image: url("images/Royal.png");
+  height: 104vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+
+}
+
+#download-picture-group {
+  margin-top: -190px;
+}
+
+#phone-picture {
+  width: 600px; 
+}
+
+#IOS {
+  width: 300px;
+}
+
+#Android {
+ width: 300px;
+}
+
+.left-footer p{
+/*  position: absolute;
+  width: 412px;
+  height: 40px;
+  left: 10px;
+  top: 2575px;*/
+
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 20px;
+  letter-spacing: 0.0104348em;
+
+  color: white;
+}
+
+.right-footer p{
+/*  position: absolute;
+  width: 412px;
+  height: 40px;
+  left: 840px;
+  top: 2575px;*/
+
+  font-family: Quantico;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: 0.0104348em;
+
+  color: white;
+}
+
+#footer{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+    background: black;
+  transition: all 0.3s ease;
+  height: 10vh;
+  padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

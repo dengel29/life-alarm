@@ -1,0 +1,24 @@
+<svg width="50" height="50" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>continue</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(27 -430)">
+<g id="continue">
+<g id="Ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-27 430)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-27 430)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_stroke" transform="translate(-17 455)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 50 25C 50 38.8071 38.8071 50 25 50C 11.1929 50 0 38.8071 0 25C 0 11.1929 11.1929 0 25 0C 38.8071 0 50 11.1929 50 25Z"/>
+<path id="path1_stroke_2x" d="M 48 25C 48 37.7025 37.7025 48 25 48L 25 52C 39.9117 52 52 39.9117 52 25L 48 25ZM 25 48C 12.2975 48 2 37.7025 2 25L -2 25C -2 39.9117 10.0883 52 25 52L 25 48ZM 2 25C 2 12.2975 12.2975 2 25 2L 25 -2C 10.0883 -2 -2 10.0883 -2 25L 2 25ZM 25 2C 37.7025 2 48 12.2975 48 25L 52 25C 52 10.0883 39.9117 -2 25 -2L 25 2Z"/>
+<path id="path2_stroke" d="M 15.3125 12.5L 14.6801 13.2747L 15.3125 13.7909L 15.9449 13.2747L 15.3125 12.5ZM -0.632376 0.774661L 14.6801 13.2747L 15.9449 11.7253L 0.632376 -0.774661L -0.632376 0.774661ZM 15.9449 13.2747L 31.2574 0.774661L 29.9926 -0.774661L 14.6801 11.7253L 15.9449 13.2747Z"/>
+</defs>
+</svg>

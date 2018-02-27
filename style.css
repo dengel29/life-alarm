@@ -1,0 +1,85 @@
+p{
+	font-family: 'Quantico', sans-serif;
+	color:white;
+	font-size:20px;
+	text-align:center;
+	letter-spacing: 1px;
+}
+
+body{
+	background-color:black;
+	text-align:center;
+}
+
+h1{
+	font-family: 'Quantico', sans-serif;
+	color:white;
+	font-size:50px;
+}
+
+h2{
+	font-family: 'Quantico', sans-serif;
+	color:white;
+	font-size:35px;
+	margin-top: 140px;
+    margin-left: -850px;
+}
+
+h3{
+	font-family: 'Quantico', sans-serif;
+	color:white;
+	font-size:27.5px;
+}
+
+a{
+	font-family: 'Quantico', sans-serif;
+	color:blue;
+	text-decoration:none;
+    font-size:20px;
+}
+
+a:hover{
+  color:#D4C2FC;
+}
+
+#header {
+ text-align: center;
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+  background-size: cover;
+  height:100vh;
+  padding: 150px;
+  color: white;
+}
+#header h1 {
+  position: fixed;
+}
+
+.card a {
+	border: dashed;
+	border-color: red;
+	box-shadow: 2px 2px 3px white;
+}
+
+#footer {
+	float:left;
+	color: white;
+	font-family: 'Quantico', sans-serif;
+	font-size: 
+}
+
+/*.staff {
+	border-radius: 10px;
+	margin:auto;
+}
+*/
+#picture img{
+	border: solid;
+	border-color: white;
+	border-radius: 10px;
+	margin:auto;
+}
+/*跟上面那个效果一样*/
+
+#shadow{
+	box-shadow: 2px 2px 3px white;
+}
